@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dev-kaiops9-maintenance",
+  "compatibility_date": "2025-08-01",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
